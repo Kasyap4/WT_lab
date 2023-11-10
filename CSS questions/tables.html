@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSE B Time Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: rgb(249, 249, 9);
+        }
+        th.mirror {
+            background-color: white; 
+            color: red;
+        }
+        th.time-slot {
+            background-color: rgb(185, 225, 238) !important; 
+        }
+        td.empty-slot {
+            background-color: lightgrey; 
+        }
+    </style>
+</head>
+<body>
+    <h1>DSE B Time Table</h1>
+    <table >
+        <thead></thead>
+        <tr>
+            <th class="mirror">Mirror</th>
+            <th class="time-slot">08:00 - 09:00</th>
+            <th class="time-slot">09:00 - 10:00</th>
+            <th class="time-slot">10:00 - 10:30</th>
+            <th class="time-slot">10:30 - 11:30</th>
+            <th class="time-slot">11:30 - 12:30</th>
+            <th class="time-slot">12:30 - 01:00</th>
+            <th class="time-slot">01:00 - 02:00</th>
+            <th class="time-slot">02:00 - 03:00</th>
+            <th class="time-slot">03:00 - 03:30</th>
+            <th class="time-slot">03:30 - 04:30</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Monday</th>
+            <td class="empty-slot"></td>
+            <td colspan="3">OS Lab B2</td>
+            <td colspan="2">Lunch Break</td>
+            <td>NLP</td>
+            <td>Maths</td>
+            <td>Break</td>
+            <td>OS</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td ></td>
+            <td>NLP</td>
+            <td>Break</td>
+            <td>CC</td>
+            <td>DL</td>
+            <td colspan="2">Lunch Break</td>
+            <td colspan="3">OS lab B1</td>
+        </tr>
+        <tr>
+            <th>wednesday</th>
+            <td class="empty-slot"></td>
+            <td colspan="3">Dl lab B1</td>
+            <td colspan="2">LunchBreak</td>
+            <td>OS</td>
+            <td>DL</td>
+            <td>Break</td>
+            <td>CC<sup>*</sup></td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>CC</td>
+            <td>DL</td>
+            <td>Break</td>
+            <td>Maths</td>
+            <td>NLP<sup>*</sup></td>
+            <td colspan="2">LunchBreak</td>
+            <td colspan="3">Dl lab b2</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td class="empty-slot"></td>
+            <td colspan="3">WT lab B1</td>
+            <td colspan="2">Lunch Break</td>
+            <td>NLP</td>
+            <td>CC</td>
+            <td>Break</td>
+            <td>DL</td>
+        </tr>
+        <tr>
+            <th>Saturday</th>
+            <td>Maths</td>
+            <td>OS<sup>*</sup></td>
+            <td>break</td>
+            <td>OS</td>
+            <td>DL<sup>*</sup></td>
+            <td colspan="2">Lunch Break</td>
+            <td colspan="3">WT lab B2</td>
+        </tr>
+    </tbody>
+    </table>
+    
+
+    
+</body>
+</html>
